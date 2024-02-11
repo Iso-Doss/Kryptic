@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*.kryptic-connect-animate-scale {*/
+/*    transition: transform .5s;*/
+/*}*/
+
+/*.kryptic-connect-animate-scale:hover {*/
+/*    transform: scale(1.05);*/
+/*}*/
+
+/*.kryptic-connect-text-align-center {*/
+/*    text-align: center;*/
+/*}*/
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.kryptic-connect-text-bold {
+    font-weight: bold;
+}
+
+.kryptic-connect-hide {
+    display: none;
+}
+
+.kryptic-main {
+    display: flex;
+    margin: 0;
+    background-color: #C8C8C8;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.kryptic-connect-container {
+    width: 428px;
+    /*height: 826px;*/
+    height: 85%;
+    padding: 15px;
+    background-color: white;
+}
+
+.kryptic-connect-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    /* width: 100%;*/
+}
+
+.kryptic-connect-logo {
+    display: flex;
+    justify-content: center;
+    margin: 75px 0;
+}
+
+.kryptic-connect-main-message {
+    text-align: center;
+    font-size: 16px;
+    padding: 0 70px;
+}
+
+.kryptic-connect-content {
+    margin: 60px 60px 150px 60px;
+}
+
+.kryptic-connect-avantages {
+    margin: 0 0 100px 0;
+}
+
+.kryptic-connect-avantage {
+    display: flex;
+    margin: 25px 0;
+}
+
+.kryptic-connect-avantage-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 50px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #ECE8E8;
+}
+
+.kryptic-connect-avantage-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.kryptic-connect-avantage-description {
+    font-size: 12px;
+    color: #565555;
+}
+
+.kryptic-connect-avantage-hr {
+    margin-bottom: 20px;
+}
+
+.kryptic-connect-user-agreements-text {
+    font-size: 10px;
+}
+
+.kryptic-connect-user-agreements-link:hover {
+    text-decoration: underline;
+}
+
+.kryptic-connect-continue-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #5A5959;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: transform .5s;
+}
+
+.kryptic-connect-continue-btn:hover {
+    background-color: #2F2F2F;
+    transform: scale(1.05);
+}
+
+.kryptic-connect-select-provider-title {
+    margin: 15px 0;
+    font-size: 24px;
+}
+
+.kryptic-connect-select-provider-form-group {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+}
+
+label[for='kryptic-connect-select-provider-search'] {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+label[for='kryptic-connect-select-provider-search']:hover {
+    transform: scale(1.05);
+}
+
+label[for='kryptic-connect-select-provider-search'] img {
+    height: 30px;
+}
+
+.kryptic-connect-select-provider-search {
+    color: black;
+    font-size: 16px;
+    background-color: #EFEFEF;
+    height: 100%;
+}
+
+.kryptic-connect-select-provider-search {
+    border: none;
+    background-color: #EFEFEF;
+    height: 100%;
+}
+
+.kryptic-connect-select-provider-search:focus-visible, .kryptic-connect-select-provider-search:focus {
+    outline: none;
+}
+
+.kryptic-connect-select-provider-providers {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.kryptic-connect-select-provider-provider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px #D9D9D9 solid;
+    padding: 10px;
+    transition: transform .5s;
+}
+
+.kryptic-connect-select-provider-provider:hover {
+    transform: scale(1.05);
+    border: 1px #8F8D8D solid;
+}
+
+.kryptic-connect-select-provider-provider img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.kryptic-connect-login-input {
+    width: 100%;
+    height: 50px;
+    border: 1px #D9D9D9 solid;
+    border-radius: 5px;
+    /*padding-left: 15px;*/
+    /*padding: 0.5rem 1rem;*/
+    margin-bottom: 30px;
+}

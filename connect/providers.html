@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+
+    <!--  Kryptic connect font : Lato  -->
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'
+          rel='stylesheet'>
+
+    <!--  Kryptic connect CSS -->
+    <link rel='stylesheet' href='../assets/css/normalize.css'/>
+    <link rel='stylesheet' href='../assets/css/connect.css'/>
+
+    <title>Providers - Kryptic connect</title>
+</head>
+<body>
+<main class='kryptic-main'>
+    <div class='kryptic-connect-container'>
+        <div class='kryptic-connect-header'>
+            <div class='kryptic-connect-header-previous'>
+                <a href='index.html'>
+                    <img src='../assets/icons/left-arrow.svg' alt='Kryptic connect cross icon'>
+                </a>
+            </div>
+            <div class='kryptic-connect-header-close'>
+                <a href='#'>
+                    <img src='../assets/icons/cross.svg' alt='Kryptic connect cross icon'>
+                </a>
+            </div>
+        </div>
+
+        <div class='kryptic-connect-select-provider-title kryptic-connect-text-bold'>
+            Select your provider
+        </div>
+
+        <form action='providers.html' class='kryptic-connect-select-provider-form'>
+            <div class='kryptic-connect-select-provider-form-group'>
+                <label for='kryptic-connect-select-provider-search'>
+                    <img src='../assets/icons/search.svg' alt='Kryptic connect search icon'>
+                </label>
+                <input type='text' name='provider' id='kryptic-connect-select-provider-search'
+                       class='kryptic-connect-select-provider-search' placeholder='Search'>
+            </div>
+        </form>
+
+        <div class='kryptic-connect-select-provider-providers'>
+            <a href='provider.html' class='kryptic-connect-select-provider-provider'>
+                <img src='../assets/images/google-calendar.svg' alt='Kryptic connect google calendar'>
+                <p>Google calendar</p>
+            </a>
+
+            <a href='provider.html' class='kryptic-connect-select-provider-provider'>
+                <img src='../assets/images/apple-calendar.svg' alt='Kryptic connect apple calendar'>
+                <p>Apple calendar</p>
+            </a>
+
+            <a href='provider.html' class='kryptic-connect-select-provider-provider'>
+                <img src='../assets/images/outlook-calendar.svg' alt='Kryptic connect outlook calendar'>
+                <p>Outlook calendar</p>
+            </a>
+        </div>
+    </div>
+</main>
+</body>
+</html>
