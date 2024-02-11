@@ -102,8 +102,8 @@ a {
 
 .kryptic-connect-container {
     width: 428px;
-    /*height: 826px;*/
-    height: 85%;
+    height: 926px;
+    /*/height: 85%;*/
     padding: 15px;
     background-color: white;
 }
@@ -281,4 +281,16 @@ label[for='kryptic-connect-select-provider-search'] img {
     /*padding-left: 15px;*/
     /*padding: 0.5rem 1rem;*/
     margin-bottom: 30px;
+}
+
+/* TABLETTE VERSION */
+@media (max-width: 428px) {
+    .kryptic-connect-container {
+        height: 100vh;
+    }
+
+    .kryptic-connect-content {
+        margin: 0 60px 150px 0;
+        width: 100%;
+    }
 }
