@@ -312,7 +312,7 @@ label[for='kryptic-connect-select-provider-search'] img {
 @media (max-width: 428px) {
     .kryptic-connect-container {
         width: 90%;
-        height: 80vh;
+        height: 90vh;
         padding: 50px 20px;
     }
 
